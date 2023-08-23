@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class BasePage {
     protected WebDriver driver;
-    private String baseURL = "";
+    private String baseURL = "https://fasttrackit-test.netlify.app/#/";
     public BasePage() {
         //default constructor
     }
