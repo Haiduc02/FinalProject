@@ -11,7 +11,7 @@ public class AddSpecialCharacterInSearchFieldTest extends BasePage {
     @BeforeMethod
     public void setup(){
         super.setUp();
-        AddSpecialCharacterInSearchFieldTest = new AddSpecialCharacterInSearchFieldTest(driver);
+       // AddSpecialCharacterInSearchFieldTest = new AddSpecialCharacterInSearchFieldTest(driver);
     }
     @Test
     public void useSearchField() throws InterruptedException{

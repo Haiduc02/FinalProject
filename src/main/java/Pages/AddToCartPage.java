@@ -11,7 +11,7 @@ public class AddToCartPage extends BasePage {
     public void clickOnAwesomeMetalChair (){driver.findElement(clickOnItem).click();}
 
 
-    By clickOnCartButton = By.xpath("/html/body/div/div/div[2]/div[2]/div/div[3]/button[1]/svg/path");
+    By clickOnCartButton = By.cssSelector("#root > div > div:nth-child(2) > div:nth-child(2) > div > div.col.col-lg-2.text-center.col > button:nth-child(2) > svg");
     public void addToCart (){driver.findElement(clickOnCartButton).click();}
 }
 
