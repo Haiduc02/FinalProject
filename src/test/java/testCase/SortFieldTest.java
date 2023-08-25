@@ -15,26 +15,26 @@ public class SortFieldTest extends BasePage {
         SortFieldPage = new SortFieldPage(driver);
     }
 
-   /* @Test
-    public void sortField() throws InterruptedException{
+    @Test
+    public void sortField1() throws InterruptedException{
         SortFieldPage.clickOnSortField();
         SortFieldPage.clickOnFirstOption();
     }
     @Test
-    public void sortField() throws InterruptedException{
+    public void sortField2() throws InterruptedException{
         SortFieldPage.clickOnSortField();
         SortFieldPage.clickOnSecondOption();
     }
     @Test
-    public void sortField() throws InterruptedException{
+    public void sortField3() throws InterruptedException{
         SortFieldPage.clickOnSortField();
         SortFieldPage.clickOnThirdOption();
     }
     @Test
-    public void sortField() throws InterruptedException{
+    public void sortField4() throws InterruptedException{
         SortFieldPage.clickOnSortField();
         SortFieldPage.clickOnFourthOption();
-    } */
+    }
 
 
 }

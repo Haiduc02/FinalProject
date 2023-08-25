@@ -1,20 +1,21 @@
 package testCase;
 
+import Pages.AddSpecialCharacterInSearchFieldPage;
 import Pages.BasePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddSpecialCharacterInSearchFieldTest extends BasePage {
 
-    private AddSpecialCharacterInSearchFieldTest AddSpecialCharacterInSearchFieldTest;
+    private AddSpecialCharacterInSearchFieldPage AddSpecialCharacterInSearchFieldPage;
 
     @BeforeMethod
     public void setup(){
         super.setUp();
-       // AddSpecialCharacterInSearchFieldTest = new AddSpecialCharacterInSearchFieldTest(driver);
+        AddSpecialCharacterInSearchFieldPage = new AddSpecialCharacterInSearchFieldPage(driver);
     }
     @Test
     public void useSearchField() throws InterruptedException{
-        AddSpecialCharacterInSearchFieldTest.useSearchField();
+        AddSpecialCharacterInSearchFieldPage.useSearchField();
     }
 }

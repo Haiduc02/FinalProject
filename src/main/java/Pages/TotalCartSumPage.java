@@ -19,7 +19,7 @@ public class TotalCartSumPage extends BasePage{
 By accessCart = By.cssSelector("#responsive-navbar-nav > div:nth-child(2) > span > a:nth-child(1) > svg");
     public void openCart (){driver.findElement(accessCart).click();}
 
-    By totalInCart = By.xpath("/html/body/div/div/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[3]/td[2]");
+    By totalInCart = By.xpath("/html/body/div/div/div[1]/nav/div/div[2]/span/a[1]/span");
 
     public double getTotalInCart() {String totalText = driver.findElement(totalInCart).getText();
         return Double.parseDouble(totalText);
